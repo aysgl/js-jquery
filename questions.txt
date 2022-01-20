@@ -1,0 +1,2 @@
+1- dataların ilk 10 tanesini nasıl çekiyorum (for döngüsü ile mi olacak)
+2- users sayfasında numaraya göre arama nasıl olacak 
