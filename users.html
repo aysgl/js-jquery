@@ -203,7 +203,7 @@
 
         $("#searchInput").on("keyup", function () {
             let value = $(this).val()
-            const filtered = data.filter(x => new RegExp(value, "i", "/[0-9]+/g").test(x.name))
+            const filtered = data.filter(x => new RegExp(value, "i", "/[0-9]+/g").test(x.name) || new RegExp(value, "i", "/[0-9]+/g").test(x.phone))
             console.log(filtered);
 
             $("#users").empty();
